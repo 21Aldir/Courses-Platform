@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create account — Udemy v2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">🎓 Udemy <small>v2</small></a>
+      <div class="nav-links">
+        <a href="index.html">Courses</a>
+        <a href="login.html">Log in</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="login-section">
+    <h2>Create your account</h2>
+    <p>Already have one? <a href="login.html">Sign in</a></p>
+
+    <div class="card login-card">
+      <form id="signup-form" action="#" method="get">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" placeholder="Jane Doe">
+
+        <label for="email">Email address</label>
+        <input type="text" id="email" name="email" placeholder="you@example.com">
+
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password" placeholder="Min. 8 characters">
+
+        <label for="confirm">Confirm password</label>
+        <input type="text" id="confirm" name="confirm" placeholder="Repeat your password">
+
+        <div class="radio-group">
+          <input type="radio" id="role-student" name="role" value="student" checked>
+          <label for="role-student">Student</label>
+          <input type="radio" id="role-instructor" name="role" value="instructor">
+          <label for="role-instructor">Instructor</label>
+        </div>
+
+        <div class="form-buttons">
+          <button type="submit" class="btn btn-primary">Create account</button>
+          <button type="reset" class="btn btn-secondary">Clear</button>
+        </div>
+      </form>
+
+      <p id="signup-msg"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Udemy v2 — <small>Proyecto escolar</small></p>
+  </footer>
+
+  <script src="signup.js"></script>
+</body>
+</html>
