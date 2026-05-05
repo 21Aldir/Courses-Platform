@@ -1,18 +1,11 @@
 <?php
 
+use App\Http\Controllers\CitasController;
 use Illuminate\Support\Facades\Route;
-
-// ─────────────────────────────────────────
-// Página principal
-// ─────────────────────────────────────────
 
 Route::get('/', function () {
     return view('welcome');
 });
-
-// ─────────────────────────────────────────
-// Catálogo de cursos
-// ─────────────────────────────────────────
 
 Route::get('/cursos', function () {
     return 'Mostrar catálogo de cursos';
@@ -22,10 +15,6 @@ Route::get('/cursos/{curso}', function ($curso) {
     return 'Ver detalle del curso: ' . $curso;
 });
 
-// ─────────────────────────────────────────
-// Categorías
-// ─────────────────────────────────────────
-
 Route::get('/categorias', function () {
     return 'Mostrar todas las categorías';
 });
@@ -33,10 +22,6 @@ Route::get('/categorias', function () {
 Route::get('/categorias/{categoria}', function ($categoria) {
     return 'Cursos de la categoría: ' . $categoria;
 })->whereAlpha('categoria');
-
-// ─────────────────────────────────────────
-// Autenticación
-// ─────────────────────────────────────────
 
 Route::get('/login', function () {
     return 'Formulario de inicio de sesión';
@@ -58,10 +43,6 @@ Route::post('/registro', function () {
     return 'Crear nueva cuenta';
 });
 
-// ─────────────────────────────────────────
-// Inscripciones (alumno)
-// ─────────────────────────────────────────
-
 Route::get('/mis-cursos', function () {
     return 'Mostrar cursos en los que estoy inscrito';
 });
@@ -73,10 +54,6 @@ Route::post('/cursos/{curso}/inscripcion', function ($curso) {
 Route::delete('/cursos/{curso}/inscripcion', function ($curso) {
     return 'Cancelar inscripción al curso: ' . $curso;
 });
-
-// ─────────────────────────────────────────
-// Panel del instructor
-// ─────────────────────────────────────────
 
 Route::get('/instructor/dashboard', function () {
     return 'Panel del instructor — resumen de cursos e inscritos';
@@ -106,10 +83,6 @@ Route::delete('/instructor/cursos/{curso}', function ($curso) {
     return 'Eliminar el curso: ' . $curso;
 });
 
-// ─────────────────────────────────────────
-// Perfil de usuario
-// ─────────────────────────────────────────
-
 Route::get('/perfil/{usuario}', function ($usuario) {
     return 'Ver perfil del usuario: ' . $usuario;
 })->whereAlphaNumeric('usuario');
@@ -117,3 +90,11 @@ Route::get('/perfil/{usuario}', function ($usuario) {
 Route::patch('/perfil/{usuario}', function ($usuario) {
     return 'Actualizar perfil del usuario: ' . $usuario;
 });
+
+Route::get('/citas', [CitasController::class, 'index']);
+Route::get('/citas/create', [CitasController::class, 'create']);
+Route::post('/citas', [CitasController::class, 'store']);
+Route::get('/citas/{id}', [CitasController::class, 'show']);
+Route::get('/citas/{id}/edit', [CitasController::class, 'edit']);
+Route::patch('/citas/{id}', [CitasController::class, 'update']);
+Route::delete('/citas/{id}', [CitasController::class, 'destroy']);
