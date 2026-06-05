@@ -10,11 +10,11 @@ return new class extends Migration
     {
         Schema::create('citas', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained('users')->cascadeOnDelete();
-            $table->foreignId('curso_id')->constrained('cursos')->cascadeOnDelete();
-            $table->dateTime('fecha_hora');
-            $table->string('motivo')->nullable();
-            $table->enum('estado', ['pendiente', 'confirmada', 'cancelada'])->default('pendiente');
+            $table->string('estudiante');
+            $table->string('materia');
+            $table->date('fecha');
+            $table->string('tutor');
+            $table->string('contacto');
             $table->timestamps();
         });
     }
