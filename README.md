@@ -1,5 +1,8 @@
 # 🎓 Udemy v2 — Plataforma de Cursos
 
+<
+
+
 Una plataforma web para que una institución educativa publique sus cursos, y para que estudiantes e instructores la usen de forma sencilla:
 
 - Los **estudiantes** pueden explorar el catálogo de cursos, inscribirse, ver sus cursos y descargar un comprobante de inscripción en PDF.
@@ -7,7 +10,8 @@ Una plataforma web para que una institución educativa publique sus cursos, y pa
 - Los **administradores** controlan todo el catálogo: aprueban o rechazan cursos, los crean y editan, y administran los usuarios de la plataforma.
 
 <!-- Screenshot: vista general de la página principal (catálogo de cursos) -->
-> ![Vista principal](docs/images/home.png)
+> ![Vista principal]
+<img width="2880" height="1683" alt="image" src="https://github.com/user-attachments/assets/2822fd7a-0fec-4752-8bbc-8c201dce4408" />
 
 ---
 
@@ -45,7 +49,8 @@ La plataforma maneja tres tipos de cuenta:
 Desde la página principal, haz clic en **Sign up** (Registrarse).
 
 <!-- Screenshot: página de registro con el formulario vacío -->
-> ![Registro](docs/images/signup.png)
+> ![Registro]
+<img width="981" height="862" alt="image" src="https://github.com/user-attachments/assets/24f6e174-6a80-41e0-a83f-02a0dd4ceb27" />
 
 Se solicita:
 
@@ -66,7 +71,9 @@ Al crear la cuenta, la sesión se inicia automáticamente y se te lleva directo 
 Haz clic en **Log in** (Iniciar sesión) e ingresa tu correo y contraseña.
 
 <!-- Screenshot: página de login -->
-> ![Login](docs/images/login.png)
+> ![Login]
+<img width="981" height="862" alt="image" src="https://github.com/user-attachments/assets/cec88369-1c2e-40c6-91c9-508a83a669ec" />
+
 
 Según el tipo de cuenta, serás dirigido automáticamente a tu panel: catálogo de cursos (estudiantes), panel de instructor o panel de administrador.
 
@@ -79,7 +86,8 @@ Según el tipo de cuenta, serás dirigido automáticamente a tu panel: catálogo
 La página principal muestra todos los cursos que han sido **aprobados** por el administrador.
 
 <!-- Screenshot: catálogo con cursos visibles y filtros activos -->
-> ![Catálogo de cursos](docs/images/catalog.png)
+> ![Catálogo de cursos]
+<img width="794" height="518" alt="image" src="https://github.com/user-attachments/assets/550cb86f-8f23-45f1-97e9-a2621af57baf" />
 
 Cada curso muestra su categoría, título, instructor, descripción, duración, nivel y los cupos disponibles. Si un curso ya está lleno, se muestra la etiqueta **Course Full**.
 
@@ -104,9 +112,12 @@ Comportamiento según el tipo de visitante:
 Aquí el estudiante ve todos los cursos en los que está inscrito.
 
 <!-- Screenshot: panel del estudiante con cursos inscritos -->
-> ![Panel del estudiante](docs/images/student-dashboard.png)
+> ![Panel del estudiante]
+<img width="1497" height="785" alt="image" src="https://github.com/user-attachments/assets/c5922b6a-ec3d-40cd-a235-6923069be71b" />
 
 Para cada curso puede:
+
+<img width="1601" height="1576" alt="image" src="https://github.com/user-attachments/assets/2cc9b565-4526-43a8-9976-7801b3bffd6e" />
 
 - **📄 Descargar PDF**: obtener un comprobante de inscripción.
 - **Unenroll**: cancelar su inscripción (con confirmación previa).
