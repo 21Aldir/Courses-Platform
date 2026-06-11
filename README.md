@@ -147,13 +147,14 @@ Incluye dos secciones:
 El panel de administración es el centro de control de la plataforma.
 
 <!-- Screenshot: panel de administración -->
-> ![Panel de administrador](docs/images/admin-dashboard.png)
+> ![Panel de administrador]
+<img width="1603" height="1082" alt="image" src="https://github.com/user-attachments/assets/f0138a5c-4645-432a-895e-92b2a5b7b3f7" />
 
 Desde aquí se puede:
 
-- **⏳ Aprobar cursos pendientes**: revisar los cursos creados y aprobarlos (✓ Approve) o rechazarlos (✗ Reject).
-- **📚 Gestionar todos los cursos**: crear (`+ New Course`), editar o eliminar cualquier curso, definiendo su categoría, instructor asignado, título, descripción, nivel, duración, cupos y estado.
-- **👥 Gestionar usuarios**: ver todos los usuarios registrados y editar su nombre, correo, tipo de cuenta o contraseña, así como eliminarlos (no es posible eliminar la propia cuenta).
+- **Aprobar cursos pendientes**: revisar los cursos creados y aprobarlos (✓ Approve) o rechazarlos (✗ Reject).
+- **Gestionar todos los cursos**: crear (`+ New Course`), editar o eliminar cualquier curso, definiendo su categoría, instructor asignado, título, descripción, nivel, duración, cupos y estado.
+- **Gestionar usuarios**: ver todos los usuarios registrados y editar su nombre, correo, tipo de cuenta o contraseña, así como eliminarlos (no es posible eliminar la propia cuenta).
 
 ---
 
