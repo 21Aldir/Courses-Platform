@@ -1,0 +1,38 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/
+/storage/framework/
+/storage/logs/
+.env
+.env.backup
+.env.production
+*.lock
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Base de datos SQLite
+/database/database.sqlite
+/database/*.sqlite
+
+# Claude
+.claude/
+GEMINI.md
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+*.ipr
+*.iws
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# OS
+.DS_Store
+Thumbs.db
