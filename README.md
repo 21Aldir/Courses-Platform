@@ -156,3 +156,18 @@ Desde aquí se puede:
 ---
 
 <p align="center">© 2026 Udemy v2 — Proyecto escolar</p>
+
+
+Conclusiones:
+
+Eduardo Garibay:
+
+En mi conclusion esta aplicacion web que se puede usar para el beneficio propio al poder inscribirte a cursos de tu agrado y tu eleccion para tener la posibilidad de lograr los objetivos que te propongas y que tu mismo desees. Así que esta app web es la plataforma adecuada para tener la mejor y mayor calidad de todo internet para tu aprendizaje.
+
+
+Aldir ALcala:
+
+ Este proyecto permiti� aplicar de forma pr�ctica: arquitectura MVC en Laravel, manejo de roles y permisos (estudiante, instructor, admin), relaciones entre modelos
+  con Eloquent, generaci�n de PDFs din�micos con laravel-dompdf, integraci�n de Vite + Tailwind en el frontend, y el manejo de flujos con estados (aprobaci�n de
+  cursos). En general, fue una buena pr�ctica de desarrollo full-stack con un caso de uso real y completo.
+  
