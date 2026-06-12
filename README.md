@@ -132,8 +132,8 @@ Aquí el instructor ve la información de los cursos a su cargo.
 
 Incluye dos secciones:
 
-- **📚 Mis cursos**: los cursos que el administrador le ha asignado, con su categoría, nivel, número de inscritos y estado de aprobación (`Pending`, `Approved`, `Rejected`).
-- **🌐 Cursos disponibles**: el catálogo completo de cursos aprobados; los propios aparecen marcados como **Tuyo**.
+- **Mis cursos**: los cursos que el administrador le ha asignado, con su categoría, nivel, número de inscritos y estado de aprobación (`Pending`, `Approved`, `Rejected`).
+- **Cursos disponibles**: el catálogo completo de cursos aprobados; los propios aparecen marcados como **Tuyo**.
 
 > Los instructores no crean ni editan cursos directamente — esto lo gestiona el administrador.
 
@@ -155,7 +155,6 @@ Desde aquí se puede:
 
 ---
 
-<p align="center">© 2026 Udemy v2 — Proyecto escolar</p>
 
 
 Conclusiones:
