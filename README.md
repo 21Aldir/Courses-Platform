@@ -169,4 +169,11 @@ Aldir ALcala:
  Este proyecto permiti� aplicar de forma pr�ctica: arquitectura MVC en Laravel, manejo de roles y permisos (estudiante, instructor, admin), relaciones entre modelos
   con Eloquent, generaci�n de PDFs din�micos con laravel-dompdf, integraci�n de Vite + Tailwind en el frontend, y el manejo de flujos con estados (aprobaci�n de
   cursos). En general, fue una buena pr�ctica de desarrollo full-stack con un caso de uso real y completo.
+
+  Jorge Young:
+  
+   M�s all� del c�digo, este proyecto demostr� c�mo una idea simple ?"una plataforma para publicar y tomar cursos"? se vuelve compleja al considerar distintos tipos de
+  usuarios y sus necesidades espec�ficas. El reto principal no fue programar funciones aisladas, sino dise�ar un sistema donde los roles interact�an de forma coherente:
+  lo que aprueba el admin lo ve el estudiante, lo que asigna el admin lo gestiona el instructor, etc. Esto deja como aprendizaje que en desarrollo de software,
+  planificar el flujo de datos y permisos entre roles es tan importante como escribir la l�gica de cada funci�n por separado.
   
