@@ -1,7 +1,4 @@
-# 🎓 Udemy v2 — Plataforma de Cursos
-
-<
-
+# Udemy v2 — Plataforma de Cursos
 
 Una plataforma web para que una institución educativa publique sus cursos, y para que estudiantes e instructores la usen de forma sencilla:
 
